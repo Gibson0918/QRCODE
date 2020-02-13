@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		BFCA72BA23F51A9100593D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCA72B823F51A9100593D22 /* Main.storyboard */; };
 		BFCA72BC23F51A9200593D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCA72BB23F51A9200593D22 /* Assets.xcassets */; };
 		BFCA72BF23F51A9200593D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCA72BD23F51A9200593D22 /* LaunchScreen.storyboard */; };
+		BFCA9EC223F52F72003FA863 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA9EC123F52F72003FA863 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BFCA72BB23F51A9200593D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCA72BE23F51A9200593D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCA72C023F51A9200593D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCA9EC123F52F72003FA863 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		F398F90DB4F1F9C7C6850A90 /* Pods-QRCODE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCODE.release.xcconfig"; path = "Target Support Files/Pods-QRCODE/Pods-QRCODE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				8137DA18B594E013E69D4245 /* Pods-QRCODE.debug.xcconfig */,
 				F398F90DB4F1F9C7C6850A90 /* Pods-QRCODE.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				BFCA72BB23F51A9200593D22 /* Assets.xcassets */,
 				BFCA72BD23F51A9200593D22 /* LaunchScreen.storyboard */,
 				BFCA72C023F51A9200593D22 /* Info.plist */,
+				BFCA9EC123F52F72003FA863 /* ScannerViewController.swift */,
 			);
 			path = QRCODE;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				BFCA72B723F51A9100593D22 /* ViewController.swift in Sources */,
 				BFCA72B323F51A9100593D22 /* AppDelegate.swift in Sources */,
 				BFCA72B523F51A9100593D22 /* SceneDelegate.swift in Sources */,
+				BFCA9EC223F52F72003FA863 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV8G4FPY8H;
 				INFOPLIST_FILE = QRCODE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV8G4FPY8H;
 				INFOPLIST_FILE = QRCODE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
